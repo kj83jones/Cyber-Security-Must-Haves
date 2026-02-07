@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Sensitive files - NEVER commit these
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.env
+.env.*
+credentials.*
+secrets.*
+*.password
+*_secret*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
